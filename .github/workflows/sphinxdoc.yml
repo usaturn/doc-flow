@@ -29,4 +29,4 @@ jobs:
         yarn test
     - name: Build HTML
       run: |
-        sphinx-build -W src build
+        sphinx-build -W docs build
