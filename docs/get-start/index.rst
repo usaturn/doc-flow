@@ -24,7 +24,8 @@
 
 #. Github よりローカル PC に対象のリポジトリをクローンする
 #. venv で sphinx に必要な python 環境を構築
-#. npm i yarn && yarn の実行
+#. npm コマンドのインストール(Windows 以外のみ)
+#. npm i yarn && yarn の実行(Windows 以外のみ)
 
 実行したりしなかったりできる。
 
