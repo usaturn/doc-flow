@@ -11,8 +11,8 @@
   "author": "usaturn <kane@berserga.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "run-p -l lint:*",
-    "lint:ja": "textlint ja"
+    "test": "run-p -l lint",
+    "lint": "textlint docs"
   },
   "dependencies": {
     "textlint": "^11.6.1",
