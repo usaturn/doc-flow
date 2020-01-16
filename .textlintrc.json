@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "rst"
+  ],
+  "filters": {
+    "whitelist": {
+      "allow": [
+        "/\\$\\$[\\s\\S]*?\\$\\$/m"
+        ]
+    }
+  },
+  "rules": {
+    "preset-ja-technical-writing": true,
+    "@proofdict/proofdict": {
+        "dictURL": "https://github.com/usaturn/proof-dictionary/"
+    }
+  }
+}
